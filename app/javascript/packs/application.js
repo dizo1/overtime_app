@@ -10,7 +10,7 @@ require("channels")
 
 import "bootstrap"
 import "../stylesheets/application"
-$(document).on("turbolinks:load", () => {
+$(document).addEventListener("turbolinks:load", () => {
     $('[data-toggle="tooltip"]').tooltip()
     $('[data-toggle="popover"]').popover()
   })
