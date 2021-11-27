@@ -14,7 +14,7 @@ describe 'navigate' do
     describe 'creation' do
         before do
             user = User.create(email: "test@test.com", password: "123456", password_confirmation: "123456", first_name: "john", last_name: "doe")
-            login_as(user, :scope => :user)
+            login_as user, scope: :user
             visit new_post_path
         end
         it 'has a new form that can be reached' do
