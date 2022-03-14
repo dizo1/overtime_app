@@ -7,9 +7,16 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+require("jquery")
+require("gritter/js/jquery.gritter.js")
+
+
 
 import "bootstrap"
 import "../stylesheets/application"
+import "@fortawesome/fontawesome-free/js/all";
+import "@fortawesome/fontawesome-free/css/all";
+import "bootstrap-icons/font/bootstrap-icons.css";
 //require("../stylesheets/application")
 
 $(document).addEventListener("turbolinks:load", () => {

@@ -5,13 +5,21 @@
     top: 0;
     bottom: 0;
   }
-  .nav-link{
+  
+body { padding-top: 80px; }
+nav-link{
     text-decoration: none;
   }
-  .nav-item{
-    text-decoration: none;
-  }
-  .div-center {
+
+nav-link a:hover {
+    color:#fff;
+   }
+
+.card{
+  background-color: grey;
+}
+
+.div-center {
     width: 400px;
     height: 400px;
     background-color: #fff;
@@ -29,7 +37,7 @@
     display: table;
   }
   
-  div.content {
+.div.content {
     display: table-cell;
     vertical-align: middle;
   }

@@ -42,7 +42,9 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :test
 
   # Print deprecation notices to the stderr.
-  config.active_support.deprecation = :stderr
+  config.active_support.deprecation = :log
+
+  config.factory_bot.definition_file_paths = ["custom/factories"]
 
   # Raises error for missing translations.
   # config.action_view.raise_on_missing_translations = true

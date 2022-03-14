@@ -1,2 +1,23 @@
 @import "custom";
 @import "~bootstrap/scss/bootstrap";
+
+
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+
+
+
+
+
+nav-link{
+    text-decoration: none;
+  }
+
+nav-link a:hover {
+    color:#fff;
+   }
+
+card{
+  background-color: grey;
+}
+

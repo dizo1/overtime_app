@@ -2,11 +2,13 @@ source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
+#ruby '3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.0.4', '>= 6.0.4.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -22,6 +24,14 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise', '~> 4.8'
+
+gem 'bootstrap-icons-helper'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+gem 'pundit'
+gem 'administrate'
+gem 'gritter', '1.2.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 #gem 'devise-bootstrapped', github: 'king601/devise-bootstrapped', branch: 'bootstrap4'
@@ -34,6 +44,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '>= 5.0'
   gem	'database_cleaner'
+  gem 'factory_bot_rails', '~> 6.2'
 end
 
 group :development do
