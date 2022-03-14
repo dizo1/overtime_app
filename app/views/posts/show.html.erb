@@ -19,4 +19,5 @@
     <h2><span>Approval Stage:</span><%=  @post.status %></h2>
 </div>
 </div>
+<p></p>
 <%= link_to 'Edit', edit_post_path(@post), class: 'btn btn-primary' if policy(@post).update? %>
