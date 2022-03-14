@@ -6,7 +6,15 @@ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import '@fortawesome/fontawesome-free/scss/fontawesome';
 
 
-
+a {
+  text-decoration: none;
+ }
+ a:hover {
+  text-decoration:underline;
+ }
+ nav a {
+  text-decoration: none;
+ }
 
 
 nav-link{

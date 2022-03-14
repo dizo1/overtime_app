@@ -31,6 +31,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
 gem 'pundit'
 gem 'administrate'
+gem 'bourbon', '~> 7.0'
 gem 'gritter', '1.2.0'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'

@@ -8,4 +8,7 @@ environment.plugins.append("Provide", new webpack.ProvidePlugin({
     popper: ['popper.js', 'default']
 }))
 
+const devtool = process.env.DEVTOOL;
+if (devtool) environment.config.merge({ devtool });
+
 module.exports = environment
